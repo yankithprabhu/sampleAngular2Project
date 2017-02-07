@@ -6,6 +6,7 @@ import {OnInit} from 'angular2/core';
     selector:"my-puzzle",
     template: `
        <section class="setup">
+       git add
        <h2>Game Setup</h2>
        Enter your name please :
        <input type="text" #name (keyup)="0">
